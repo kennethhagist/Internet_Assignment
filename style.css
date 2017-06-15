@@ -13,6 +13,7 @@ header{
 }
 header img{
     width: 100px;
+    display: inline-block;
 }
 header section{
     display: inline-block;
@@ -56,6 +57,7 @@ main-content{
 }
 h2{
     color: navy;
+    display: inline-block;
 }
 article{
     vertical-align: right;
@@ -63,6 +65,11 @@ article{
 }
 article img{
     width: 30px;
+    display: inline-block;
+}
+article ul{
+    display: inline-block;
+    text-align: right;
 }
 #main-content{
     display: inline-block;
@@ -71,6 +78,12 @@ article img{
 }
 #main-content img{
     width: 70px;
+}
+#middle-content{
+
+}
+#middle-content img{
+
 }
 footer{
     vertical-align: right;
