@@ -10,10 +10,12 @@ wrapper{
     color: black;
 }
 header{
-    display: inline;
 }
 header img{
     width: 100px;
+}
+header section{
+    display: inline-block;
 }
 #internet{
     font-size: 50px
@@ -34,6 +36,12 @@ aside{
     display: inline-block;
     width: 170px;
     vertical-align: top;
+}
+aside button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px
+    width: 140px;
 }
 aside img{
     width: 170px
@@ -56,7 +64,19 @@ article{
 article img{
     width: 30px;
 }
+#main-content{
+    display: inline-block;
+    width: 700px
+    vertical-align: right;
+}
+#main-content img{
+    width: 70px;
+}
 footer{
     vertical-align: right;
     display: inline-block;
+    border-color: blue;
+}
+footer img{
+    width: 100px;
 }
